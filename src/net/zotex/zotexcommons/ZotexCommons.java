@@ -1,5 +1,6 @@
 package net.zotex.zotexcommons;
 
+import net.zotex.zotexcommons.commands.FlyingCommand;
 import net.zotex.zotexcommons.commands.HelpCommand;
 import net.zotex.zotexcommons.commands.NightvisionCommand;
 import org.bukkit.command.CommandExecutor;
@@ -16,6 +17,8 @@ public class ZotexCommons extends JavaPlugin implements Listener {
 
         getCommand("help").setExecutor(new HelpCommand(this));
         getCommand("nightvision").setExecutor((CommandExecutor) new NightvisionCommand(this));
+        getCommand("flying").setExecutor((CommandExecutor) new FlyingCommand(this));
+
 
     }
 }

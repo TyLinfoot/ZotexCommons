@@ -9,3 +9,4 @@ commands:
   nightvision:
     description: Nightvision command!
     aliases: [nv]
+  flying:
