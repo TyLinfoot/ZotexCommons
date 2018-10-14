@@ -1,0 +1,8 @@
+name: ZotexCommons
+version: 1.0.0
+author: [TyTheOwl, ItsAlfiee]
+main: net.zotex.zotexcommons.ZotexCommons
+commands:
+  help:
+    description: Simple help command!
+    aliases: []

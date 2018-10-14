@@ -1,0 +1,17 @@
+# ZotexMC Commons #
+
+
+
+#Help Command
+help:
+  - ' '
+  - '&b&lZotex&f&lMC Network'
+  - ' '
+  - '&b/island &7- Create an island, or visit your current island!'
+  - '&b/ah &7- Open the Auction House menu.'
+  - '&b/shop &7- Open the In-Game Shop menu.'
+  - '&b/buy &7- Open the Server store.'
+  - '&b/warp &7- Open the warp menu.'
+  - '&b/kits &7- Open the kits menu.'
+  - '&b/spawn &7- Go to the server spawn.'
+  - ' '
