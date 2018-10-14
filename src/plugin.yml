@@ -6,3 +6,6 @@ commands:
   help:
     description: Simple help command!
     aliases: []
+  nightvision:
+    description: Nightvision command!
+    aliases: [nv]
