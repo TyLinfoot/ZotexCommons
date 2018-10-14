@@ -27,7 +27,7 @@ public class NightvisionCommand implements CommandExecutor {
         }
         Player p = (Player) sender;
         if (!p.hasPermission("nightvision.use")) {
-            p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "<!>" + ChatColor.RED + "No permissions.");
+            p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "<!>" + ChatColor.RED + "No permissions!");
             return true;
         }
         if (this.nightvision.contains(p.getName())) {
