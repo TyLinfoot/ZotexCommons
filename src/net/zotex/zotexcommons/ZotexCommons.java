@@ -10,7 +10,7 @@ public class ZotexCommons extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        System.out.println("The ZotexCommons plugin has been loaded!");
+        System.out.println("The ZotexCommons plugin has been loaded.");
 
         saveDefaultConfig();
 

@@ -19,8 +19,8 @@ public class HelpCommand implements CommandExecutor {
 
         Player p = (Player) sender;
 
-        for(String help_message : this.plugin.getConfig().getStringList("help")) {
-            p.sendMessage(ChatColor.translateAlternateColorCodes('&', help_message));
+        for(String help_message1 : this.plugin.getConfig().getStringList("help")) {
+            p.sendMessage(ChatColor.translateAlternateColorCodes('&', help_message1));
         }
 
         return false;

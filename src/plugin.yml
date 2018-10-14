@@ -4,7 +4,7 @@ author: [TyTheOwl, ItsAlfiee]
 main: net.zotex.zotexcommons.ZotexCommons
 commands:
   help:
-    description: Simple help command!
+    description: Simple help command
     aliases: []
   nightvision:
     description: Nightvision command!
