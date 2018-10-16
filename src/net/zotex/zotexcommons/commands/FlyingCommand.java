@@ -1,6 +1,7 @@
 package net.zotex.zotexcommons.commands;
 
 import net.zotex.zotexcommons.ZotexCommons;
+import net.zotex.zotexcommons.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -19,7 +20,7 @@ public class FlyingCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
         if (!sender.hasPermission("flying.check")) {
-            sender.sendMessage(ChatColor.RED + "No permission!");
+            sender.sendMessage(Utils.getMessage("no_perms"));
             return true;
         }
         if (args.length == 1) {

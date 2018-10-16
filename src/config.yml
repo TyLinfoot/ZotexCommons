@@ -1,8 +1,5 @@
-# ZotexMC Commons #
-
-
-
 #Help Command
+
 help:
   - ' '
   - '&b&lZotex&f&lMC Skyblock'
@@ -15,3 +12,14 @@ help:
   - '&b/kits &7- Open the kits menu.'
   - '&b/spawn &7- Go to the server spawn.'
   - ' '
+
+
+
+
+
+
+# Configurable Messages - Please note this will soon be moved to a lang.yml file.
+
+messages:
+  prefix: '&b&lZotex&f&lCommons'
+  no_perms: '&c&l<!> &cNo permissions!'
