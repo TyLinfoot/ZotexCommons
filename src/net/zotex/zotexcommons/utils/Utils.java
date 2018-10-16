@@ -12,4 +12,5 @@ public class Utils {
     public static String getMessage(String path) {
         return color(ZotexCommons.getInstance().getConfig().getString("messages." + path));
     }
+
 }

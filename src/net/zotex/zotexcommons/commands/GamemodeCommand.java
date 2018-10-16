@@ -17,7 +17,7 @@ public class GamemodeCommand implements CommandExecutor {
         this.plugin = plugin;
     }
 
-    String GamemodeMessage = Utils.getMessage("Gamemode-message");
+    String GamemodeMessage = Utils.getMessage("gamemode-message");
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {

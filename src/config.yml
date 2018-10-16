@@ -22,5 +22,5 @@ help:
 
 messages:
   prefix: '&b&lZotex&f&lCommons'
-  no_perms: '&c&l<!> &cNo permissions!'
+  no_perms: '&c&l<!> &cNo permission!'
   gamemode-message: '&7Gamemode has been changed to &b{GAMEMODE}'
