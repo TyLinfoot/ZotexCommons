@@ -44,5 +44,4 @@ public class NightvisionCommand implements CommandExecutor {
 
         return false;
     }
-
 }
