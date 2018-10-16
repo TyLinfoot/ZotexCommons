@@ -21,4 +21,4 @@ help:
 # Configurable Messages - Please note this will soon be moved to a lang.yml file.
 
 prefix: '&b&lZotex&f&lCommons'
-no_perms: '&c&l<!> &cNo permissions.'
+no_perms: '&c&l<!> &cNo permissions!'
