@@ -39,5 +39,4 @@ public class FlyingCommand implements CommandExecutor {
 
         return false;
     }
-
 }

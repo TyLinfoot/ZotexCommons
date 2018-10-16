@@ -33,4 +33,5 @@ public class ZotexCommons extends JavaPlugin implements Listener {
     public static void setInstance(ZotexCommons instance) {
         instance = instance;
     }
+
 }
