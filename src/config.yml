@@ -20,7 +20,5 @@ help:
 
 # Configurable Messages - Please note this will soon be moved to a lang.yml file.
 
-messages:
-  prefix: '&b&lZotex&f&lCommons'
-  no_perms: '&c&l<!> &cNo permissions!'
-  gamemode-message: '&7Gamemode has been changed to &b{GAMEMODE}'
+prefix: '&b&lZotex&f&lCommons'
+no_perms: '&c&l<!> &cNo permissions!'

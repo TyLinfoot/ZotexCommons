@@ -1,7 +1,6 @@
 package net.zotex.zotexcommons.commands;
 
 import net.zotex.zotexcommons.ZotexCommons;
-import net.zotex.zotexcommons.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -19,8 +18,10 @@ public class FlyingCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
+        String noperm = this.plugin.getConfig().getString("no_perms");
+
         if (!sender.hasPermission("flying.check")) {
-            sender.sendMessage(Utils.getMessage("no_perms"));
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', noperm));
             return true;
         }
         if (args.length == 1) {
@@ -39,5 +40,4 @@ public class FlyingCommand implements CommandExecutor {
 
         return false;
     }
-
 }

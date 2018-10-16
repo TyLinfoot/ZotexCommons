@@ -1,7 +1,6 @@
 package net.zotex.zotexcommons.commands;
 
 import net.zotex.zotexcommons.ZotexCommons;
-import net.zotex.zotexcommons.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -28,7 +27,7 @@ public class NightvisionCommand implements CommandExecutor {
         }
         Player p = (Player) sender;
         if (!p.hasPermission("nightvision.use")) {
-            p.sendMessage(Utils.getMessage("no_perms"));
+            p.sendMessage(this.plugin.getConfig().getString("no_perms"));
             return true;
         }
         if (this.nightvision.contains(p.getName())) {
