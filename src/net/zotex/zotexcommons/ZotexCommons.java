@@ -16,7 +16,7 @@ public class ZotexCommons extends JavaPlugin implements Listener {
     public void onEnable() {
 
         setInstance(this);
-        System.out.println("The ZotexCommons plugin has been loaded.");
+        System.out.println("The ZotexCommons plugin has been loaded!");
 
         saveDefaultConfig();
 

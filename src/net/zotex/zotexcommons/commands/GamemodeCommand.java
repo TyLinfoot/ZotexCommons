@@ -1,6 +1,7 @@
 package net.zotex.zotexcommons.commands;
 
 import net.zotex.zotexcommons.ZotexCommons;
+import net.zotex.zotexcommons.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.command.Command;
@@ -16,7 +17,7 @@ public class GamemodeCommand implements CommandExecutor {
         this.plugin = plugin;
     }
 
-    String GamemodeMessage = plugin.getConfig().getString("Gamemode-message");
+    String GamemodeMessage = Utils.getMessage("Gamemode-message");
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {

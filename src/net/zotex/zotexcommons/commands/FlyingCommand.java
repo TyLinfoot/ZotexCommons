@@ -30,7 +30,7 @@ public class FlyingCommand implements CommandExecutor {
                 return true;
             }
             sender.sendMessage("§b" + p.getName() + (p.isFlying() ? " §bis currently flying" : " §bis not currently flying!"));
-            sender.sendMessage("§b" + p.getName() + (p.hasPermission("essentials.fly") ? " §bhas permission to fly!" : "§bdoes not have permission to fly!"));
+            sender.sendMessage("§b" + p.getName() + (p.hasPermission("essentials.fly") ? " §bhas permission to fly." : "§bdoes not have permission to fly!"));
             return false;
 
         }
